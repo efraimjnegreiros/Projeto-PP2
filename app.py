@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregar o dataset (ajuste o caminho do arquivo conforme necessário)
-df = pd.read_csv('/content/autism_screening.csv')  # Substitua 'seu_arquivo.csv' pelo caminho correto do seu arquivo
+df = pd.read_csv('./autism_screening.csv')  # Substitua 'seu_arquivo.csv' pelo caminho correto do seu arquivo
 
 # Função para treinar o modelo com as 18 variáveis especificadas
 def treinar_modelo(df):
